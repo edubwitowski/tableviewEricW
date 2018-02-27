@@ -14,6 +14,10 @@
 		FAC93181204586F800BF13D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC9317F204586F800BF13D9 /* LaunchScreen.storyboard */; };
 		FAC9318C204586F800BF13D9 /* tableviewEricWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC9318B204586F800BF13D9 /* tableviewEricWTests.swift */; };
 		FAC93197204586F800BF13D9 /* tableviewEricWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC93196204586F800BF13D9 /* tableviewEricWUITests.swift */; };
+		FAC931A52045995300BF13D9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC931A42045995300BF13D9 /* star.png */; };
+		FAC931A72045995A00BF13D9 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC931A62045995900BF13D9 /* star2.png */; };
+		FAC931A92045997B00BF13D9 /* LockScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC931A82045997A00BF13D9 /* LockScreen.png */; };
+		FAC931AB2045998500BF13D9 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC931AA2045998500BF13D9 /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FAC93192204586F800BF13D9 /* tableviewEricWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewEricWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC93196204586F800BF13D9 /* tableviewEricWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewEricWUITests.swift; sourceTree = "<group>"; };
 		FAC93198204586F900BF13D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC931A42045995300BF13D9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "08 - Star Image/star.png"; sourceTree = "<group>"; };
+		FAC931A62045995900BF13D9 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star2.png; path = "08 - Star Image/star2.png"; sourceTree = "<group>"; };
+		FAC931A82045997A00BF13D9 /* LockScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockScreen.png; sourceTree = "<group>"; };
+		FAC931AA2045998500BF13D9 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				FAC9318A204586F800BF13D9 /* tableviewEricWTests */,
 				FAC93195204586F800BF13D9 /* tableviewEricWUITests */,
 				FAC93174204586F800BF13D9 /* Products */,
+				FAC931A42045995300BF13D9 /* star.png */,
+				FAC931A62045995900BF13D9 /* star2.png */,
+				FAC931A82045997A00BF13D9 /* LockScreen.png */,
+				FAC931AA2045998500BF13D9 /* sortednames.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,8 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC93181204586F800BF13D9 /* LaunchScreen.storyboard in Resources */,
+				FAC931A52045995300BF13D9 /* star.png in Resources */,
+				FAC931AB2045998500BF13D9 /* sortednames.plist in Resources */,
 				FAC9317E204586F800BF13D9 /* Assets.xcassets in Resources */,
 				FAC9317C204586F800BF13D9 /* Main.storyboard in Resources */,
+				FAC931A92045997B00BF13D9 /* LockScreen.png in Resources */,
+				FAC931A72045995A00BF13D9 /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = tableviewEricW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.tableviewEricW;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = tableviewEricW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.tableviewEricW;
